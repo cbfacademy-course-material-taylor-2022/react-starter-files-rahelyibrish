@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Book from "./components/Book2";
+import Book from "./components/Book";
 import Search from "./components/Search";
 import data from "./models/books.json";
 
