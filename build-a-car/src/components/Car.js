@@ -3,7 +3,7 @@ import React from "react";
 export default function Car(props) {
   return (
     <>
-      <h2>Hi, I am a Car! I have {props.numberOfWheels} wheels</h2>
+      <h2>Hi, I am a Car! I have {props.numberOfWheels} wheels.</h2>
       {props.showWheels(props.numberOfWheels)}
     </>
   );
