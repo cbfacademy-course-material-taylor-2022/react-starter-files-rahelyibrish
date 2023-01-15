@@ -5,13 +5,17 @@ import "./HeaderStyle.css";
 function Header(props) {
   return (
     <>
-      <h1>My Bookcase</h1>
-      <div className="navbar">
-        {" "}
-        <Link to="/"> Home </Link>
-        <Link to="/bookcase" className="Book Case">
-          <Link to="/about" className="About"></Link> Bookcase
-        </Link>
+      <div className="header">
+        <div>
+          <h1>My Bookcase</h1>
+        </div>
+
+        <div className="menu">
+          <Link to="/"> Home </Link>
+          <Link to="/bookcase" className="Book Case">
+            <Link to="/about" className="About"></Link> Bookcase
+          </Link>
+        </div>
       </div>
     </>
   );
